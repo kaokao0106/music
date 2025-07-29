@@ -35,7 +35,7 @@
 　例えばカラオケで「Like a Rolling Stone」という楽曲を歌う人がいるとする。このレコメンドシステムでは「Like a Rolling Stone」と同じクラスタに属するが曲の中から、テンポ感や音響の雰囲気、盛り上がり方が似ている5曲をユークリッド距離で抽出する。<br>
  これにより、自分の声質やリズム感にあった曲を見つけやすくなり、カラオケでの選曲に悩んでいる人にも直感的なレコメンドが可能になる。
 
-##実行手順
+## 実行手順
 pip install streamlit<br>
 unzip data_with_clusters.csv.zip<br>
 streamlit run music.py
